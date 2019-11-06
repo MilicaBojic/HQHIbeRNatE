@@ -29,8 +29,8 @@
 		<property name="hbm2ddl.auto">update</property>
 		
 		<!-- Names the annotated entity class -->
-		<mapping class="model.User"/>
-		<mapping class="model.Marka"/>
+		
+		<mapping class="model.Car"/>
 
 	</session-factory>
 </hibernate-configuration>
