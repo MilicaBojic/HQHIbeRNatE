@@ -2,7 +2,7 @@ package model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType; //predstavlja tip generisanje jer pored identity (koji je btw Enum), postoje i drugi
+import javax.persistence.GenerationType; //predstavlja tip generisanja jer pored identity (koji je btw Enum), postoje i drugi
 import javax.persistence.Id;
 
 @Entity //ENTITET JE SVE ONO O CEMU CUVAMO PODATKE 
