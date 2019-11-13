@@ -5,7 +5,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-@Entity //ENTITET JE SVE ONO O CEMU CUVAMO PODATKE
+@Entity //ENTITET JE SVE ONO O CEMU CUVAMO PODATKE 
+//AKO SE NESTO NE OBELEZI KAO ENTITET, NECE BITI OMOGUCEN NJEGOV UNOS U BAZU!
 //Iznad citave klase jer se na nju odnosi; odredjuje koja klasa treba da se ponasa kao entitet- mapiranje se radi na toj klasi.
 public class Car {
 		//U ovoj klasi se definisu atributi automobila,id, konstruktor, geteri i seteri. Geter za id je potreban da bi se kasnije moglo po id-u pretrazivati.
